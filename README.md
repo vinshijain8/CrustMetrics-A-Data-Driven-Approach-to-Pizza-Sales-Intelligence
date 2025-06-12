@@ -29,21 +29,17 @@ All data transformations and KPIs were calculated using raw SQL before loading i
 
 Revenue & Order KPIs:
 
-sql
-Copy
-Edit
 SELECT SUM(total_price) AS total_revenue FROM pizza_sales;
+
 Average Order Value:
 
-sql
-Copy
-Edit
 SELECT SUM(total_price)/COUNT(DISTINCT order_id) AS avg_order_value FROM pizza_sales;
+
 Sales Breakdown by Category/Size:
 
-sql
-Copy
-Edit
 SELECT pizza_category, SUM(total_price) AS revenue FROM pizza_sales GROUP BY pizza_category;
 Full list of queries is included in the SQL queries.pdf file in this repo.
 
+
+
+https://github.com/vinshijain8/CrustMetrics-A-Data-Driven-Approach-to-Pizza-Sales-Intelligence/blob/main/snapshot%20of%20dashboard%201
