@@ -41,5 +41,4 @@ SELECT pizza_category, SUM(total_price) AS revenue FROM pizza_sales GROUP BY piz
 Full list of queries is included in the SQL queries.pdf file in this repo.
 
 
-https://github.com/vinshijain8/CrustMetrics-A-Data-Driven-Approach-to-Pizza-Sales-Intelligence/blob/main/snapshot%20of%20dashboard%201.png
-
+https://github.com/vinshijain8/CrustMetrics-A-Data-Driven-Approach-to-Pizza-Sales-Intelligence/blob/main/snapshot%20of%20dashboard%201.png?raw=true
